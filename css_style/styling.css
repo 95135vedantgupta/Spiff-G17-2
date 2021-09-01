@@ -316,7 +316,13 @@ color: #E2703A;
 
 /* buttons */
 .all_buttons{
-  text-align: right;;
+  text-align: right;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.all_buttons > div {
+  padding: 5px;
 }
 
 .dropbtn {
